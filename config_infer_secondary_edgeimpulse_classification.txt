@@ -1,0 +1,19 @@
+[property]
+gpu-id=0
+#net-scale-factor=1 
+gie-unique-id=2
+onnx-file=models/edgeimpulse_candy_classify.onnx
+#model-engine-file=models/trt_engines/Jetson_Nano/edgeimpulse_candy_classify.onnx_b1_gpu0_fp32.engine
+labelfile-path=ei_classifier_labels.txt
+force-implicit-batch-dim=0
+network-mode=0
+process-mode=2 # 1-PGIE 2-SGIE
+network-type=1
+batch-size=1
+model-color-format=2
+
+
+[class-attrs-all]
+pre-cluster-threshold=0.8 # classification threshold
+eps=0.2
+group-threshold=1
