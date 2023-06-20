@@ -10,4 +10,6 @@ the prebuilt "deepstream-app" found in the samples provided with DeepStream
 
 Bundled is an example model of a candy detector which includes a first stage for object detection and second stage to classify good or bad when the candy is damaged. 
 
-YOLOv5 requires a custom output layer for DeepStream and the implentation here is based off https://github.com/marcoslucianops/DeepStream-Yolo. Note that a prebuilt plugin is included for the Jetson Nano to test quickly this is the .so file located in nvdsinfer_custom_impl_Yolo_bin. To build for other platforms please consult steps in the nvdsinfer_custom_impl_Yolo_src folder
+YOLOv5 requires a custom output layer for DeepStream and the implentation here is based off https://github.com/marcoslucianops/DeepStream-Yolo. 
+
+Note that a prebuilt plugin is included for the Jetson Nano to test quickly this is the .so file located in `nvdsinfer_custom_impl_Yolo_bin`. To build for other platforms please consult steps in the `nvdsinfer_custom_impl_Yolo_src` folder
